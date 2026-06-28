@@ -1,0 +1,5 @@
+{
+  "signedPayload": "{\"schemaVersion\":1,\"platform\":\"android\",\"latestVersionCode\":1,\"minSupportedVersionCode\":1,\"latestVersionName\":\"1.0\",\"apkUrls\":[\"https://gitee.com/shj56166/Motexa/releases/download/1.0/app-release.apk\",\"https://github.com/shj56166/Motexa/releases/download/1.0/app-release.apk\"],\"sha256\":\"\",\"changelog\":\"初始版本\",\"offlineGraceSeconds\":259200,\"publishedAt\":1782676097}",
+  "signatureAlgorithm": "ECDSA_P256_SHA256_RAW",
+  "signature": "2C1nMrjiL9tjEAXNLetWKmVWV3-ZbeEmiSkSmIzaLDwy1gF4D46nkFAcsi-_R4RcuJDRqiA7N1JrU-v3VKEZjw"
+}
