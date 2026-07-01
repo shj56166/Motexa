@@ -1,3 +1,3 @@
-﻿MD5: a3e9f03d4105b4c735096f2a45bd042e
+MD5: d06151c95ad62e2a7a2e274beee06246
 Version: 1.3.0
 File: app-release.apk
