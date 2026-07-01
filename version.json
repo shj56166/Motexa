@@ -1,5 +1,5 @@
 {
-  "signedPayload": "{\"schemaVersion\":1,\"platform\":\"android\",\"latestVersionCode\":206342255,\"minSupportedVersionCode\":206342255,\"latestVersionName\":\"1.1.0\",\"apkUrls\":[\"https://gitee.com/shj56166/Motexa/releases/download/1.1.0/app-release.apk\",\"https://github.com/shj56166/Motexa/releases/download/1.1.0/app-release.apk\"],\"sha256\":\"af2e471feb340617d041115b3ff0e82e4b4d2eadb0a11e8e088ccf4418cfe933\",\"changelog\":\"1.1.0 更新预览\\n- 更新提示页改为更接近 iOS 的上拉卡片。\\n- 安装更新作为主要操作，其他安装入口可展开。\\n- 优化小屏显示，减少内容被按钮挤占。\",\"offlineGraceSeconds\":259200,\"publishedAt\":1782915339599}",
+  "signedPayload": "{\"schemaVersion\":1,\"platform\":\"android\",\"latestVersionCode\":206342255,\"minSupportedVersionCode\":206342255,\"latestVersionName\":\"1.1.0\",\"apkUrls\":[\"https://gitee.com/shj56166/Motexa/releases/download/1.1.0/app-release.apk\",\"https://github.com/shj56166/Motexa/releases/download/1.1.0/app-release.apk\"],\"sha256\":\"af2e471feb340617d041115b3ff0e82e4b4d2eadb0a11e8e088ccf4418cfe933\",\"changelog\":\"1.1.0 更新预览\\n\\n更新内容：\\n- 更新提示页支持多行换行显示，长内容可自然滚动阅读。\\n- 安装更新与重新检查固定悬浮在底部，主要操作始终可见。\\n- 其他安装入口可展开查看，避免干扰主要更新流程。\",\"offlineGraceSeconds\":259200,\"publishedAt\":1782917431688}",
   "signatureAlgorithm": "ECDSA_P256_SHA256_RAW",
-  "signature": "urZP0m3f3p64tW70m9COcPMGtlOstgppze-z2PKUue3RIi6M7kuLYKuMpVdpQFy3lu8_rWhsfCHQDYj9lCqd_w"
+  "signature": "Ma3jc-aRE6IuhWuBV6YYeaYLxzvrc_Jevllf2sOjQkc5bcmuN3RTgzquf6992yf5sZERnHkEzbauBNcimJQPkA"
 }
