@@ -1,5 +1,5 @@
 {
-  "signedPayload": "{\"schemaVersion\":1,\"platform\":\"android\",\"latestVersionCode\":206351932,\"minSupportedVersionCode\":206351932,\"latestVersionName\":\"1.3.0\",\"apkUrls\":[\"https://github.com/shj56166/Motexa/raw/master/app-release.apk\",\"https://gitee.com/shj56166/qixing/blob/master/app-release.apk\"],\"sha256\":\"79f6da40d332d866382d3aab20e34e7836b627921609f6347ececb5d6f9841e9\",\"changelog\":\"这个第一个版本\",\"offlineGraceSeconds\":432000,\"publishedAt\":1782934415531}",
+  "signedPayload": "{\"schemaVersion\":1,\"platform\":\"android\",\"latestVersionCode\":206352137,\"minSupportedVersionCode\":206352137,\"latestVersionName\":\"1.3.1\",\"apkUrls\":[\"https://github.com/shj56166/Motexa/raw/master/app-release.apk\",\"https://gitee.com/shj56166/qixing/blob/master/app-release.apk\"],\"sha256\":\"62839001cf72fbd5bae902a7a3ae4ae85be579d6eb3c4d1a3c53d289c0818373\",\"changelog\":\"修复更新下载闪退，优化首次更新检查加载页，并增加更新诊断日志。\",\"offlineGraceSeconds\":432000,\"publishedAt\":1782941889711}",
   "signatureAlgorithm": "ECDSA_P256_SHA256_RAW",
-  "signature": "3aJM7lgAbSOz44tj2hHWGpeVwkOJ9wtFNSnj5bRV0jwEhGBLSqBDMOiVFoccT3PGxrLCTx01beupNpRKwe3Urw"
+  "signature": "ynzHS64bCJ0HxwGn87BsZSFyBTWoFZp6yAMMx3ALOnopJMfGJeuGmVC8GjIDoD3gIgeUmIw15gfs5bHF1FDkYw"
 }
