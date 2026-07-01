@@ -1,0 +1,5 @@
+﻿File: app-release.apk
+Version: 1.2.0
+VersionCode: 206351846
+MD5: a3e9f03d4105b4c735096f2a45bd042e
+Size: 32615613 bytes
