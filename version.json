@@ -1,5 +1,5 @@
 {
-  "signedPayload": "{\"schemaVersion\":1,\"platform\":\"android\",\"latestVersionCode\":206381912,\"minSupportedVersionCode\":206381912,\"latestVersionName\":\"1.4.0\",\"apkUrls\":[\"https://github.com/shj56166/Motexa/raw/master/app-release.apk\",\"https://gitee.com/shj56166/qixing/blob/master/app-release.apk\"],\"sha256\":\"fc7ae5f77448ab758ae005c279c1c563d270f1ff815ad369859d48c535ee3fdc\",\"changelog\":\"最新更新\",\"offlineGraceSeconds\":432000,\"publishedAt\":1783192451382}",
+  "signedPayload": "{\"schemaVersion\":1,\"platform\":\"android\",\"latestVersionCode\":206382054,\"minSupportedVersionCode\":206382054,\"latestVersionName\":\"1.5.0\",\"apkUrls\":[\"https://github.com/shj56166/Motexa/raw/master/app-release.apk\",\"https://gitee.com/shj56166/qixing/blob/master/app-release.apk\"],\"sha256\":\"979d1a63dfcccda89dade9efe77e9e342d4b762eb1c45f4dd939af66301797b9\",\"changelog\":\"最新更新\",\"offlineGraceSeconds\":432000,\"publishedAt\":1783198578414}",
   "signatureAlgorithm": "ECDSA_P256_SHA256_RAW",
-  "signature": "qiVG-MGuYcbmn-c3O1gZ72vi_kdPXcJjl9oW3NSC1E3uZZwBl-lx5TOUL6NOGYSPwdOoYp45a487ktMwfwh9fQ"
+  "signature": "2W2u3OBbzSSYNetf6jcG14EXHxTFaqAuNF1Yr0_qT5eSGkQuTWOXRk7xjSnnZSZxiBX5zYR-GxGBMfKdK74sMg"
 }
