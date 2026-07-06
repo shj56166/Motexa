@@ -1,1 +1,1 @@
-5797ded79bd899032fd74de5b5c91f9c  app-release.apk
+9b9ff395d98e934b4a77f78abca93b57  app-release.apk

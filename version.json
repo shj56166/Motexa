@@ -1,5 +1,5 @@
 {
-  "signedPayload": "{\"schemaVersion\":1,\"platform\":\"android\",\"latestVersionCode\":206400433,\"minSupportedVersionCode\":1,\"latestVersionName\":\"1.6.2\",\"apkUrls\":[\"https://github.com/shj56166/Motexa/raw/master/app-release.apk\",\"https://gitee.com/shj56166/qixing/blob/master/app-release.apk\"],\"sha256\":\"26111485897b9b01b0f93eca0561904e113db63ee2f35fe1ce6b7e5325704395\",\"changelog\":\"修复已知问题\\n优化骑行记录与设置保存\",\"offlineGraceSeconds\":432000,\"publishedAt\":1783312550147}",
+  "signedPayload": "{\"schemaVersion\":1,\"platform\":\"android\",\"latestVersionCode\":206400433,\"minSupportedVersionCode\":1,\"latestVersionName\":\"1.6.2\",\"apkUrls\":[\"https://github.com/shj56166/Motexa/raw/master/app-release.apk\",\"https://gitee.com/shj56166/qixing/blob/master/app-release.apk\"],\"sha256\":\"11161b725f935091132df037203a49602159a5b8909ebf8fcbdf8474f5fac897\",\"changelog\":\"修复已知问题\\n优化骑行记录与设置保存\",\"offlineGraceSeconds\":432000,\"publishedAt\":1783312752000}",
   "signatureAlgorithm": "ECDSA_P256_SHA256_RAW",
-  "signature": "xXWL_os0LcLjHJNVUz0HGY0x_gtXK6jN5sYKPjX6jaHb2852KnWogwhElqRoBywbAWx2iKAsdtXkhaknRtilWw"
+  "signature": "-ueTxTlUI7Z_pGPBRygRunwnvMTe-Fj3od5_AuHAZRtQ-OdZOkYgrU0deY31_UeomvxxMEIG_Ht07mN8gs0alw"
 }
