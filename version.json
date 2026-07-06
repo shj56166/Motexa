@@ -1,5 +1,5 @@
 {
-  "signedPayload": "{\"schemaVersion\":1,\"platform\":\"android\",\"latestVersionCode\":206400310,\"minSupportedVersionCode\":1,\"latestVersionName\":\"1.6.0\",\"apkUrls\":[\"https://github.com/shj56166/Motexa/raw/master/app-release.apk\",\"https://gitee.com/shj56166/qixing/blob/master/app-release.apk\"],\"sha256\":\"b6f6dec2ef27e026e7f3172cc7f659516d27c746ec0fce133f57e588c10f61e6\",\"changelog\":\"1 设备参数/电耗统计/骑行UI更新\\n2 增强极空保护板支持\\n3 GPS定位增强修复\",\"offlineGraceSeconds\":432000,\"publishedAt\":1783308152480}",
+  "signedPayload": "{\"schemaVersion\":1,\"platform\":\"android\",\"latestVersionCode\":206400433,\"minSupportedVersionCode\":1,\"latestVersionName\":\"1.6.2\",\"apkUrls\":[\"https://github.com/shj56166/Motexa/raw/master/app-release.apk\",\"https://gitee.com/shj56166/qixing/blob/master/app-release.apk\"],\"sha256\":\"26111485897b9b01b0f93eca0561904e113db63ee2f35fe1ce6b7e5325704395\",\"changelog\":\"修复已知问题\\n优化骑行记录与设置保存\",\"offlineGraceSeconds\":432000,\"publishedAt\":1783312550147}",
   "signatureAlgorithm": "ECDSA_P256_SHA256_RAW",
-  "signature": "FvBUxiqTd1CQpJcrJa2worGWHXsIHWcBGtVzY0Tlc-WIINb_S9kMcLLMitUhOPf49NN18O6MBBa-cLnQIRF4dw"
+  "signature": "xXWL_os0LcLjHJNVUz0HGY0x_gtXK6jN5sYKPjX6jaHb2852KnWogwhElqRoBywbAWx2iKAsdtXkhaknRtilWw"
 }
