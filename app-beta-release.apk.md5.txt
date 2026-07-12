@@ -1,1 +1,1 @@
-afbd17a30d3a7422c211ae22b467ac74  app-beta-release.apk
+0cea966afb02a248123111649495b917  app-beta-release.apk

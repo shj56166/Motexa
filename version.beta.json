@@ -1,5 +1,5 @@
 {
-  "signedPayload": "{\"schemaVersion\":1,\"platform\":\"android\",\"channel\":\"beta\",\"packageName\":\"com.motexaqixing.app.beta\",\"latestVersionCode\":206420402,\"minSupportedVersionCode\":1,\"latestVersionName\":\"1.7.0\",\"apkUrls\":[\"https://github.com/shj56166/Motexa/raw/master/app-beta-release.apk\",\"https://gitee.com/shj56166/qixing/blob/master/app-beta-release.apk\"],\"sha256\":\"4815b676593ad1b9f1d3e6743184d60bd45b4075245facc3242932e45e5cc793\",\"changelog\":\"Beta 测试版本\\n非强制更新\",\"offlineGraceSeconds\":432000,\"publishedAt\":1783483482407}",
+  "signedPayload": "{\"schemaVersion\":1,\"platform\":\"android\",\"channel\":\"beta\",\"packageName\":\"com.motexaqixing.app.beta\",\"latestVersionCode\":206460204,\"minSupportedVersionCode\":206460204,\"latestVersionName\":\"v1.7.5beta\",\"apkUrls\":[\"https://github.com/shj56166/Motexa/raw/master/app-beta-release.apk\",\"https://gitee.com/shj56166/qixing/blob/master/app-beta-release.apk\"],\"sha256\":\"8fb6d835919d59b9cbd84cd898433c46ab26b0f9050fac727fd5f4cd38e99787\",\"changelog\":\"设备参数页重构\\n骑行模式页面编辑\\n蓝牙连接大量优化\",\"offlineGraceSeconds\":432000,\"publishedAt\":1783821991418}",
   "signatureAlgorithm": "ECDSA_P256_SHA256_RAW",
-  "signature": "-PnmTBSkFbDuss19NtbGpPP_67wSxdexNFXsPFyjWsuA6yoUTiKYQcF71R9XMDnIRMh9lxEXfb8ByGTgr4gv8Q"
+  "signature": "CPM_xseIxwVRg2ESfvYOurq956lJs9sbeEZ2Wi4jwSU0szwZoCrDvgWDZ-NXIFgfzrQe1_7RAIR5joMMbV2kpg"
 }
