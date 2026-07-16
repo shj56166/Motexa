@@ -1,5 +1,5 @@
 {
-  "signedPayload": "{\"schemaVersion\":1,\"platform\":\"android\",\"channel\":\"stable\",\"packageName\":\"com.motexaqixing.app\",\"latestVersionCode\":206482351,\"minSupportedVersionCode\":1,\"latestVersionName\":\"v1.7.8\",\"apkUrls\":[\"https://github.com/shj56166/Motexa/raw/master/app-release.apk\",\"https://gitee.com/shj56166/qixing/blob/master/app-release.apk\"],\"sha256\":\"2a596a5847336a60c2f210e765672cf132ff20ed6ccc44687572bdbf5ffbcc29\",\"changelog\":\"修复已知问题\\n优化骑行记录与设置保存\",\"offlineGraceSeconds\":432000,\"publishedAt\":1784073134183}",
+  "signedPayload": "{\"schemaVersion\":1,\"platform\":\"android\",\"channel\":\"stable\",\"packageName\":\"com.motexaqixing.app\",\"latestVersionCode\":206500503,\"minSupportedVersionCode\":1,\"latestVersionName\":\"v1.7.9\",\"apkUrls\":[\"https://github.com/shj56166/Motexa/raw/master/app-release.apk\",\"https://gitee.com/shj56166/qixing/blob/master/app-release.apk\"],\"sha256\":\"09f6beebedef7c26891ca9be678ad97852ef75076278d9945e418c004d1b4fd5\",\"changelog\":\"优化骑行诊断与 GPS 处理\\n修复已知问题\",\"offlineGraceSeconds\":432000,\"publishedAt\":1784178286137}",
   "signatureAlgorithm": "ECDSA_P256_SHA256_RAW",
-  "signature": "dsxLx6vFqIVsfXzphcKyqGRzbY8lHWfV8r16BwkN7kQiGXtwzEuHpaYHzKY46NW8yZwJYM0xfmPPJw7PvK5x3w"
+  "signature": "fBulVjqiXnUECypYe9VexMcqpzJCK96TYMWDJVtQ14UEUxVj1Cz0eA-raCYLX7qWGM_j5WN-JeLv0zb1jqCWwA"
 }
