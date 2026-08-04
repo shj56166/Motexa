@@ -1,5 +1,5 @@
 {
-  "signedPayload": "{\"schemaVersion\":1,\"platform\":\"android\",\"channel\":\"beta\",\"packageName\":\"com.motexaqixing.app.beta\",\"latestVersionCode\":206691243,\"minSupportedVersionCode\":1,\"latestVersionName\":\"v2.0.0beta\",\"apkUrls\":[\"https://github.com/shj56166/Motexa/raw/master/app-beta-release.apk\",\"https://gitee.com/shj56166/qixing/blob/master/app-beta-release.apk\"],\"sha256\":\"1c2a6faf4d6534786d353f847653c094c06835fe0cc18b5aaaf24eae5a026527\",\"changelog\":\"v2.0.0beta 正式发布\",\"offlineGraceSeconds\":432000,\"publishedAt\":1785847560019}",
+  "signedPayload": "{\"schemaVersion\":1,\"platform\":\"android\",\"channel\":\"beta\",\"packageName\":\"com.motexaqixing.app.beta\",\"latestVersionCode\":206691908,\"minSupportedVersionCode\":1,\"latestVersionName\":\"v2.0.0beta\",\"apkUrls\":[\"https://github.com/shj56166/Motexa/raw/master/app-beta-release.apk\",\"https://gitee.com/shj56166/qixing/blob/master/app-beta-release.apk\"],\"sha256\":\"2eac1ea7b3089d72cf69228c93c00da1d6122fb105213c1bbf56de173f26abeb\",\"changelog\":\"v2.0.0beta 正式发布\",\"offlineGraceSeconds\":432000,\"publishedAt\":1785870896839}",
   "signatureAlgorithm": "ECDSA_P256_SHA256_RAW",
-  "signature": "nAhgHVry686njaJjAjTdpEE9d1dsiZRedOUizGX5DYMCzyqHcGR66Jolnrrt11x2fMKMVrj5KDumpKcuvu2F7w"
+  "signature": "VDE61a7OfCnds7oyTXn4m61p0eEKgyXUugPE8sFgxEKRa1t8ws9QOkfUpjyURORkvWf2JvoJqqS7vR6iK3Yr-Q"
 }
