@@ -1,5 +1,5 @@
 {
-  "signedPayload": "{\"schemaVersion\":1,\"platform\":\"android\",\"channel\":\"beta\",\"packageName\":\"com.motexaqixing.app.beta\",\"latestVersionCode\":206781447,\"minSupportedVersionCode\":1,\"latestVersionName\":\"v2.2.5beta\",\"apkUrls\":[\"https://github.com/shj56166/Motexa/raw/master/app-beta-release.apk\",\"https://gitee.com/shj56166/qixing/blob/master/app-beta-release.apk\"],\"sha256\":\"483add1c4e0bb17c7b2548a433d6d9955e1bc8bd0fcad96c6aae9985c09b6306\",\"changelog\":\"更多蓝牙设备适配测试\",\"offlineGraceSeconds\":432000,\"publishedAt\":1786632609925}",
+  "signedPayload": "{\"schemaVersion\":1,\"platform\":\"android\",\"channel\":\"beta\",\"packageName\":\"com.motexaqixing.app.beta\",\"latestVersionCode\":206790954,\"minSupportedVersionCode\":1,\"latestVersionName\":\"v2.2.6beta\",\"apkUrls\":[\"https://github.com/shj56166/Motexa/raw/master/app-beta-release.apk\",\"https://gitee.com/shj56166/qixing/blob/master/app-beta-release.apk\"],\"sha256\":\"6c11a78490a5daadec7b76c04cf5f56ab55cca414627e7da01d5bb38f26b2346\",\"changelog\":\"更多蓝牙设备适配测试\",\"offlineGraceSeconds\":432000,\"publishedAt\":1786701423937}",
   "signatureAlgorithm": "ECDSA_P256_SHA256_RAW",
-  "signature": "TA9SmA5LiABhm9HcMbXH--Rto2V6TvJ7HflPFt759ka4lIL-u8hI2B46hOnBue4Dbz93Yga3uWmbl2rz9vQtPw"
+  "signature": "0aVcRH8JA1jNFJsSKv0HOmn7QbGTBKtObsXeZE_1tScYCNM4028Bwmzo8G7P8SpUwkZqYpSslhSqxNbkqlTgzw"
 }
