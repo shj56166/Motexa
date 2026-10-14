@@ -1,0 +1,38 @@
+{
+  "name": "motexa-ride-ui-development-kit",
+  "private": true,
+  "version": "0.2.0",
+  "type": "module",
+  "packageManager": "pnpm@10.33.2",
+  "engines": { "node": ">=22.12.0" },
+  "scripts": {
+    "dev": "vite --open /mock-host.html",
+    "typecheck": "vue-tsc --noEmit -p tsconfig.json",
+    "theme:check": "node tools/theme-check.mjs",
+    "theme:replay-check": "node tools/replay-check.mjs",
+    "theme:build": "pnpm theme:check && pnpm typecheck && vite build",
+    "theme:pack": "pnpm theme:check && node tools/theme-pack.mjs",
+    "theme:pack-runtime": "pnpm theme:check && pnpm typecheck && pnpm theme:replay-check && vite build --mode runtime --outDir dist/runtime-web && node tools/theme-pack-runtime.mjs",
+    "theme:runtime-check": "node tools/runtime-package-check.mjs",
+    "theme:serve-runtime": "node tools/serve-runtime.mjs",
+    "docs:build": "node tools/build-docs.mjs",
+    "docs:preview": "vite preview --outDir dist/docs-site --host 127.0.0.1 --port 5188 --strictPort",
+    "release:pack": "node tools/pack-release.mjs",
+    "release:build": "pnpm theme:build && pnpm theme:pack-runtime && pnpm theme:runtime-check && pnpm docs:build && pnpm release:pack"
+  },
+  "dependencies": {
+    "@motexa/ride-ui-sdk": "file:vendor/ride-ui-sdk",
+    "fflate": "0.8.3",
+    "vue": "3.5.32",
+    "qrcode": "1.5.4",
+    "ajv": "8.17.1"
+  },
+  "devDependencies": {
+    "marked": "18.1.0",
+    "@types/node": "24.12.2",
+    "@vitejs/plugin-vue": "6.0.6",
+    "typescript": "6.0.2",
+    "vite": "8.0.10",
+    "vue-tsc": "3.2.7"
+  }
+}

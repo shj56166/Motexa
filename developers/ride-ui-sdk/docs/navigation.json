@@ -1,0 +1,60 @@
+{
+  "sdkVersion": "1.5.0",
+  "apiVersion": "1.11",
+  "demoVersion": "0.2.0",
+  "locales": [
+    "zh-CN",
+    "en-US"
+  ],
+  "articles": [
+    {
+      "slug": "overview",
+      "title": {
+        "zh-CN": "SDK 与公开范围",
+        "en-US": "SDK overview"
+      }
+    },
+    {
+      "slug": "quick-start",
+      "title": {
+        "zh-CN": "快速开始",
+        "en-US": "Quick start"
+      }
+    },
+    {
+      "slug": "debugger",
+      "title": {
+        "zh-CN": "浏览器调试器",
+        "en-US": "Browser debugger"
+      }
+    },
+    {
+      "slug": "api",
+      "title": {
+        "zh-CN": "数据与客户端 API",
+        "en-US": "Data and client API"
+      }
+    },
+    {
+      "slug": "theme-config",
+      "title": {
+        "zh-CN": "主题清单与设置",
+        "en-US": "Manifest and settings"
+      }
+    },
+    {
+      "slug": "build-install",
+      "title": {
+        "zh-CN": "构建与 App 安装",
+        "en-US": "Build and App installation"
+      }
+    },
+    {
+      "slug": "publishing",
+      "title": {
+        "zh-CN": "GitHub 发布与常见问题",
+        "en-US": "GitHub publishing and FAQ"
+      }
+    }
+  ]
+}

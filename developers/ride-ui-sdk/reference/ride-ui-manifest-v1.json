@@ -1,0 +1,377 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://motexa.local/schemas/ride-ui-manifest-v1.json",
+  "title": "Motexa Ride UI Manifest V1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "manifestVersion",
+    "id",
+    "name",
+    "version",
+    "entry",
+    "api",
+    "orientations"
+  ],
+  "properties": {
+    "manifestVersion": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:[.-][a-z0-9]+)+$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 80
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+(?:-[0-9A-Za-z.-]+)?$"
+    },
+    "entry": {
+      "type": "string",
+      "minLength": 1
+    },
+    "api": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "major",
+        "minMinor"
+      ],
+      "properties": {
+        "major": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "minMinor": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "orientations": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "portrait",
+          "landscape"
+        ]
+      }
+    },
+    "requiredCapabilities": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "optionalCapabilities": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "externalImageDomains": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\\.)+[a-z]{2,63}$"
+      }
+    },
+    "preview": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "image"
+      ],
+      "properties": {
+        "image": {
+          "type": "string",
+          "pattern": "^[^/\\\\](?!.*(?:^|[/\\\\])\\.\\.(?:[/\\\\]|$)).*\\.(?:webp|png|jpe?g|svg)$"
+        },
+        "scenarios": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "label"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(?:[._-][a-z0-9]+)*$"
+              },
+              "label": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "zh",
+                  "en"
+                ],
+                "properties": {
+                  "zh": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 40
+                  },
+                  "en": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 40
+                  }
+                }
+              },
+              "speedKmh": {
+                "type": "number"
+              },
+              "powerW": {
+                "type": "number"
+              },
+              "throttlePct": {
+                "type": "number"
+              },
+              "throttleVoltage": {
+                "type": "number"
+              },
+              "visualState": {
+                "enum": [
+                  "calm",
+                  "boost",
+                  "surge",
+                  "alert"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "config": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schemaVersion",
+        "schema",
+        "default"
+      ],
+      "properties": {
+        "schemaVersion": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "schema": {
+          "type": "string",
+          "pattern": "^[^/\\\\](?!.*(?:^|[/\\\\])\\.\\.(?:[/\\\\]|$)).*\\.schema\\.json$"
+        },
+        "default": {}
+      }
+    },
+    "runtime": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "publisherId",
+        "releaseId",
+        "renderer",
+        "variantId",
+        "targets",
+        "renderTargets",
+        "minAndroidApi",
+        "runtimeRequirements",
+        "viewport",
+        "requiredInputCapabilities",
+        "dataCapabilities",
+        "rendererFeatures",
+        "metadata",
+        "performance"
+      ],
+      "properties": {
+        "publisherId": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:[.-][a-z0-9]+)+$"
+        },
+        "releaseId": {
+          "type": "string",
+          "minLength": 3,
+          "maxLength": 160,
+          "pattern": "^[0-9A-Za-z@._+-]+$"
+        },
+        "renderer": {
+          "const": "web"
+        },
+        "variantId": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:[._-][a-z0-9]+)*$"
+        },
+        "targets": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "phone",
+              "agent"
+            ]
+          }
+        },
+        "renderTargets": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "phone",
+              "vehicle-cast"
+            ]
+          }
+        },
+        "minAndroidApi": {
+          "type": "integer",
+          "minimum": 23
+        },
+        "runtimeRequirements": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "minWebViewMajor",
+            "features"
+          ],
+          "properties": {
+            "minWebViewMajor": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "features": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(?:[._-][a-z0-9]+)*$"
+              }
+            }
+          }
+        },
+        "viewport": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "minWidth",
+            "minHeight",
+            "maxWidth",
+            "maxHeight",
+            "scalable"
+          ],
+          "properties": {
+            "minWidth": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "minHeight": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "maxWidth": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "maxHeight": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "scalable": {
+              "type": "boolean"
+            }
+          }
+        },
+        "requiredInputCapabilities": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "touch",
+              "pointer",
+              "keyboard"
+            ]
+          }
+        },
+        "dataCapabilities": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:[._-][a-z0-9]+)*$"
+          }
+        },
+        "rendererFeatures": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:[._-][a-z0-9]+)*$"
+          }
+        },
+        "metadata": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "author",
+            "license",
+            "description"
+          ],
+          "properties": {
+            "author": {
+              "type": "string",
+              "minLength": 1
+            },
+            "license": {
+              "type": "string",
+              "minLength": 1
+            },
+            "description": {
+              "type": "string"
+            }
+          }
+        },
+        "performance": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "targetRefreshHz",
+            "resourceClass"
+          ],
+          "properties": {
+            "targetRefreshHz": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 240
+              }
+            },
+            "resourceClass": {
+              "enum": [
+                "low",
+                "standard",
+                "high"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

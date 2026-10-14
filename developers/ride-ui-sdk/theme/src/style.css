@@ -1,0 +1,45 @@
+:root { color-scheme: dark; font-family: Inter, "Segoe UI", Arial, sans-serif; background: #090c12; }
+* { box-sizing: border-box; }
+html, body, #ride-ui-root { width: 100%; height: 100%; } body { margin: 0; }
+button { font: inherit; }
+.partner-theme, .loading { width: 100%; height: 100%; min-width: 0; min-height: 0; overflow: hidden; color: #edf5ff; background: #090c12; }
+.partner-theme { display: grid; grid-template-rows: auto minmax(0, 1fr) auto auto; gap: clamp(10px, 2vh, 22px); padding: 16px; }
+.topbar { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 12px; }
+.eyebrow, .connection, .hero-label, .metrics span { color: #91a2b9; font-size: 11px; font-weight: 700; letter-spacing: 0; text-transform: uppercase; }
+.topbar strong { display: block; margin-top: 3px; font-size: 13px; }
+.connection { display: flex; gap: 9px; }
+.connection span::before { display: inline-block; width: 7px; height: 7px; margin-right: 4px; border-radius: 50%; background: #ffb34f; content: ''; }
+.connection .is-ok::before { background: #4fe1ae; }
+.connection .is-failed::before { background: #ff5b62; }
+.actions { display: flex; justify-content: flex-end; gap: 6px; }
+.actions button { display: grid; width: 34px; height: 34px; place-items: center; border: 1px solid #344257; border-radius: 5px; color: inherit; background: #121a27; cursor: pointer; }
+.actions button:focus-visible { outline: 2px solid var(--accent, #60d7ff); outline-offset: 2px; }
+.hero { display: grid; align-content: center; justify-items: center; min-height: 0; padding: 18px; border: 1px solid #263348; border-radius: 7px; background: #101827; }
+.hero > div { display: flex; align-items: baseline; }
+.hero strong { font-size: clamp(76px, 24vh, 198px); font-variant-numeric: tabular-nums; line-height: .85; letter-spacing: 0; }
+.hero small { margin-left: 10px; color: #91a2b9; font-size: clamp(14px, 3vh, 25px); font-weight: 700; }
+.hero[data-speed-state='held'] strong { opacity: .55; }
+.power { margin-top: 12px; color: var(--accent, #60d7ff); font-size: clamp(19px, 4vh, 36px); font-weight: 800; }
+.metrics { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 9px; }
+.metrics article { min-width: 0; padding: 12px; border: 1px solid #263348; border-radius: 6px; background: #121a27; }
+.metrics strong { display: block; overflow: hidden; margin-top: 5px; color: #fff; font-size: clamp(16px, 3.2vw, 26px); text-overflow: ellipsis; white-space: nowrap; }
+.metrics article[data-freshness='stale'] { border-color: #d6a34a; opacity: .7; }
+.metrics article[data-freshness='unavailable'] { opacity: .45; }
+.action-error { margin: 0; color: #ff8d92; font-size: 12px; }
+.loading { display: grid; place-items: center; color: #91a2b9; }
+.is-low-power * { animation: none !important; transition: none !important; }
+.is-light { color: #142033; background: #edf4fb; }
+.is-light .hero, .is-light .metrics article, .is-light .actions button { border-color: #b9c8d8; color: #142033; background: #fff; }
+@media (max-aspect-ratio: 1/1) { .topbar { grid-template-columns: 1fr auto; } .connection { display: none; } .metrics { grid-template-columns: 1fr 1fr; } .hero strong { font-size: clamp(74px, 17vh, 144px); } }
+
+.partner-theme, .minimal-pulse { padding-top: max(16px, var(--safe-top)); padding-right: max(16px, var(--safe-right)); padding-bottom: max(16px, var(--safe-bottom)); padding-left: max(16px, var(--safe-left)); }
+.actions button { width: 44px; height: 44px; }
+.is-settings { display: block; overflow: auto; }
+.is-light .power, .is-light .power-line strong { color: #356d26; }
+@media (max-height: 360px) and (min-aspect-ratio: 1/1) { .partner-theme, .minimal-pulse { gap: 6px; padding: 8px; } .hero { padding: 8px; } .hero strong, .speed strong { font-size: 22vh; } .speed { margin: 8px 0; } .power, .power-line strong { font-size: 18px; margin-top: 4px; } .metrics article { padding: 6px 8px; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
+
+@media (min-aspect-ratio: 1/1) { .is-settings .theme-settings { width: min(32rem, 52vw); } }
+@media (max-width: 680px) and (max-aspect-ratio: 1/1) { .is-settings { padding-bottom: calc(58vh + 16px); } }
+
+:root[data-theme="light"] { color-scheme: light; }

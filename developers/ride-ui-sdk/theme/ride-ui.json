@@ -1,0 +1,83 @@
+{
+  "manifestVersion": 1,
+  "id": "partner.example-dashboard",
+  "name": "Partner Dashboard",
+  "version": "0.2.0",
+  "entry": "src/main.ts",
+  "api": {
+    "major": 1,
+    "minMinor": 10
+  },
+  "orientations": [
+    "portrait",
+    "landscape"
+  ],
+  "requiredCapabilities": [],
+  "optionalCapabilities": [
+    "ride.request-exit",
+    "display.set-orientation",
+    "theme.open-settings",
+    "theme.open-picker",
+    "theme.config-patch"
+  ],
+  "runtime": {
+    "publisherId": "partner.example",
+    "releaseId": "partner.example-dashboard@0.2.0-web-default",
+    "renderer": "web",
+    "variantId": "web-default",
+    "targets": [
+      "phone",
+      "agent"
+    ],
+    "renderTargets": [
+      "phone",
+      "vehicle-cast"
+    ],
+    "minAndroidApi": 26,
+    "runtimeRequirements": {
+      "minWebViewMajor": 120,
+      "features": [
+        "es2022",
+        "css-grid"
+      ]
+    },
+    "viewport": {
+      "minWidth": 320,
+      "minHeight": 240,
+      "maxWidth": 2560,
+      "maxHeight": 1600,
+      "scalable": true
+    },
+    "requiredInputCapabilities": [],
+    "dataCapabilities": [
+      "telemetry.v1",
+      "fast-frame.v1",
+      "native-speed-presentation"
+    ],
+    "rendererFeatures": [
+      "dom",
+      "css"
+    ],
+    "metadata": {
+      "author": "Example Partner",
+      "license": "MIT",
+      "description": "Partner dashboard example for the independent Ride UI SDK."
+    },
+    "performance": {
+      "targetRefreshHz": [
+        30,
+        60
+      ],
+      "resourceClass": "standard"
+    }
+  },
+  "config": {
+    "schemaVersion": 1,
+    "schema": "config.schema.json",
+    "default": {
+      "accent": "lime",
+      "hideSpeedDecimal": false,
+      "showPower": true
+    }
+  }
+}

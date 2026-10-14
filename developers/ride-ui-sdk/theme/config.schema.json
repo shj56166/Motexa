@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["accent", "hideSpeedDecimal", "showPower"],
+  "properties": {
+    "accent": { "type": "string", "enum": ["lime", "cyan", "amber"] },
+    "hideSpeedDecimal": { "type": "boolean" },
+    "showPower": { "type": "boolean" }
+  }
+}

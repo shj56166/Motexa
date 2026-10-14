@@ -1,0 +1,41 @@
+{
+  "name": "@motexa/ride-ui-sdk",
+  "version": "1.5.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./client": {
+      "types": "./dist/client.d.ts",
+      "import": "./dist/client.js"
+    },
+    "./contract": {
+      "types": "./dist/contract.d.ts",
+      "import": "./dist/contract.js"
+    },
+    "./replay": {
+      "types": "./dist/replay.d.ts",
+      "import": "./dist/replay.js"
+    },
+    "./tools/runtime-package": "./tools/runtime-package.mjs",
+    "./tools/validate-theme": "./tools/validate-theme.mjs"
+  },
+  "dependencies": {
+    "ajv": "8.17.1"
+  },
+  "files": [
+    "dist/client.js",
+    "dist/client.d.ts",
+    "dist/contract.js",
+    "dist/contract.d.ts",
+    "dist/constants.js",
+    "dist/constants.d.ts",
+    "dist/replay.js",
+    "dist/replay.d.ts",
+    "dist/generated/telemetryCatalog.js",
+    "dist/generated/telemetryCatalog.d.ts",
+    "tools/runtime-package.mjs",
+    "tools/validate-theme.mjs",
+    "README.md",
+    "DEVELOPMENT.md"
+  ]
+}
